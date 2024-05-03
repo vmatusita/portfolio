@@ -18,16 +18,86 @@
                 </span>
                 <h1 class="md:hidden text-2xl font-semibold tracking-wider">Portfólio</h1>
             </div>
-            <ul id="nav-list" class="md:flex md:flex-row md:items-center md:text-base flex-col text-center text-2xl z-[-1] md:z-auto md:static absolute bg-customBackground w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500 md:transition-none">
-                <li class="md:mr-4 md:my-0 md:font-normal my-6 font-semibold tracking-wider"><a href="#sobre">Sobre mim</a></li>
-                <li class="md:mx-4 md:my-0 md:font-normal my-6 font-semibold tracking-wider"><a href="#tecnologias">Tecnologias</a></li>
-                <li class="md:mx-4 md:my-0 md:font-normal my-6 font-semibold tracking-wider"><a href="#projetos">Projetos</a></li>
-                <li class="md:mx-4 md:my-0 md:font-normal my-6 font-semibold tracking-wider"><a href="#contato">Contato</a></li>
+            <ul id="nav-list" class="md:flex md:flex-row md:items-center md:text-base flex-col text-center text-2xl z-10 md:z-auto md:static absolute bg-customBackground w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500 md:transition-none">
+                <li class="py-2 px-5 hover:rounded-sm hover:bg-white hover:text-[#3A63A8] transition-all ease-in-out duration-300 md:my-0 md:font-normal my-6 font-semibold tracking-wider text-lg"><a href="#sobre">Sobre mim</a></li>
+                <li class="py-2 px-5 hover:rounded-sm hover:bg-white hover:text-[#3A63A8] transition-all ease-in-out duration-300 md:mx-1 md:my-0 md:font-normal my-6 font-semibold tracking-wider text-lg"><a href="#tecnologias">Tecnologias</a></li>
+                <li class="py-2 px-5 hover:rounded-sm hover:bg-white hover:text-[#3A63A8] transition-all ease-in-out duration-300 md:mx-1 md:my-0 md:font-normal my-6 font-semibold tracking-wider text-lg"><a href="#projetos">Projetos</a></li>
+                <li class="py-2 px-5 hover:rounded-sm hover:bg-white hover:text-[#3A63A8] transition-all ease-in-out duration-300 md:mx-1 md:my-0 md:font-normal my-6 font-semibold tracking-wider text-lg"><a href="#contato">Contato</a></li>
             </ul>
-            <button class="hidden md:block md:ml-auto tracking-wider whitespace-nowrap">Download CV</button>
+            <button class="hidden md:block md:ml-auto tracking-wider whitespace-nowrap bg-[#3A63A8] py-2 px-5 rounded-sm text-lg font-semibold hover:bg-white hover:text-[#3A63A8] transition-all ease-in-out duration-300">Download CV</button>
         </nav>
     </header>
-    <main class="top-[80px]">
+    <main>
+        <section id="#sobre" class="mt-10">
+            <div class="md:flex md:flex-row-reverse md:justify-center md:items-center md:bg-formasWeb md:bg-contain md:gap-24 md:bg-center">    
+                <div class="bg-formasMobile md:bg-none bg-cover flex justify-center relative -z-10 md:z-auto">
+                    <img class="size-64 md:size-96 p-2" src="/assets/foto-victor.png" alt="foto-perfil">
+                </div>
+                <div class="p-6 space-y-2">
+                    <p class="text-[#3A63A8] font-extralight text-sm md:text-xl">Estudante</p>
+                    <h2 class="font-bold text-4xl md:text-7xl">Victor<br> 
+                        Yuki Matusita</h2>
+                    <p class="font-extralight text-sm md:text-xl">18 anos, Curitiba PR<br> 
+                        Cursando Engenharia de Software (Unicesumar)</p>
+                    <button class="md:hidden bg-[#3A63A8] py-2 px-5 rounded-sm tracking-wider text-xl  hover:bg-white hover:text-[#3A63A8] transition-all ease-in-out duration-300">Download CV</button> 
+                </div>
+            </div>
+            <div class="p-6 space-y-6 mt-4 bg-fundoCirculo bg-no-repeat md:bg-none md:flex md:justify-center md:items-center md:space-x-16" style="background-size: 245px 393px; background-position: left center;">
+                <img class="size-72 md:size-96" src="/assets/portfolio-imagem.png" alt="portfolio-imagem">
+                <div class="space-y-3">
+                    <h3 class="text-4xl md:text-6xl font-semibold text-[#3A63A8]">Sobre mim</h3>
+                    <p class="text-lg md:text-2xl md:w-[36rem]">Já trabalhei com Marketing, criando artes cativantes e envolventes para os clientes. Recentemente, iniciei na área de programação, focando no desenvolvimento Frontend e atuando como freelancer nos últimos 2 meses. Minha especialidade envolve HTML e CSS.</p>
+                </div>
+            </div>
+            <div class="bg-fundoX bg-no-repeat bg-right-top mt-4 space-y-6" style="background-size: 179.5px 224px;">
+                <div class="flex justify-center">
+                    <img class="size-72 md:hidden" src="/assets/portfolio-imagem-1.png" alt="portfolio-imagem-1">
+                </div>
+                <div class="flex flex-col justify-center items-center space-y-3">
+                    <h3 class="text-4xl md:text-6xl font-semibold text-[#3A63A8]">Tecnologias</h3>
+                    <p class="m-10 text-center text-lg md:text-2xl">Tecnologias com as quais tenho trabalhado recentemente</p>
+                </div>
+                <div>
+                    <ul class="flex justify-center items-center space-x-4 mb-4">
+                        <li><img class="size-24 md:size-36" src="/assets/icon-html.png" alt="html"></li>
+                        <li><img class="size-24 md:size-36" src="/assets/icon-css.png" alt="css"></li>
+                        <li><img class="size-24 md:size-36" src="/assets/icon-js.png" alt="js"></li>
+                        <li><img class="size-24 md:size-36 object-contain hidden md:block" src="/assets/icon-tailwind.png" alt="react"></li>
+                        <li><img class="size-24 md:size-36 object-contain hidden md:block" src="/assets/icon-node.png" alt="react"></li>
+                    </ul>
+                    <ul class="flex justify-center items-center space-x-4 md:hidden">
+                        <li><img class="size-24 object-contain" src="/assets/icon-tailwind.png" alt="react"></li>
+                        <li><img class="size-24 object-contain" src="/assets/icon-node.png" alt="react"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-10 space-y-6 p-5 bg-fundoHtml bg-no-repeat bg-left-top" style="background-size: 245px 393px;">
+                <h4 class="text-center text-lg md:text-2xl">Estes são alguns dos trabalhos e<br> <span class="text-[#3A63A8]">projetos que já realizei</span></h4>
+                <div class="flex justify-center space-x-3">
+                    <span class="text-4xl md:hidden cursor-pointer">
+                        <ion-icon name="arrow-back-circle-sharp"></ion-icon>
+                    </span>
+                    <span class="text-4xl md:hidden cursor-pointer">
+                        <ion-icon name="arrow-forward-circle-sharp"></ion-icon>
+                    </span>
+                </div>
+                <div class="h-64 bg-[#343434] m-10">
+                    <p class="text-6xl font-extrabold">EM BREVE</p>
+                </div>
+            </div>
+            <div class="mt-10 space-y-3 text-center bg-fundoContato bg-no-repeat" style="background-size: 250px 100px; background-position: center;">
+                <h3 class="text-4xl md:text-6xl font-semibold text-[#3A63A8] text-center">Contato</h3>
+                <ul class="flex justify-center items-center space-x-6">
+                    <li><a href=""><img class="size-14 md:size-24" src="assets/icon-whatsapp.png" alt=""></a></li>
+                    <li><a href=""><img class="size-14 md:size-24" src="assets/icon-linkedin.png" alt=""></a></li>
+                    <li><a href=""><img class="size-14 md:size-24" src="assets/icon-github.png" alt=""></a></li>
+                    <li><a href=""><img class="size-14 md:size-24" src="assets/icon-instagram.png" alt=""></a></li>
+                </ul>
+            </div>
+        </section>
     </main>
+    <footer class="p-5 bg-[#121212] mt-10">
+        <p class="text-center font-semibold md:text-xl">© 2024 <span class="text-[#3A63A8]">VictorMatusita</span></p>
+    </footer>
 </body>
 </html>
