@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="pt-br">
+<html lang="pt-br" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,7 +28,7 @@
         </nav>
     </header>
     <main>
-        <section id="#sobre" class="mt-10">
+        <section id="sobre" class="mt-10">
             <div class="md:flex md:flex-row-reverse md:justify-center md:items-center md:bg-formasWeb md:bg-contain md:gap-24 md:bg-center">    
                 <div class="bg-formasMobile md:bg-none bg-cover flex justify-center relative -z-10 md:z-auto">
                     <img class="size-64 md:size-96 p-2" src="/assets/foto-victor.png" alt="foto-perfil">
@@ -43,7 +43,9 @@
                 </div>
             </div>
             <div class="p-6 space-y-6 mt-4 bg-fundoCirculo bg-no-repeat md:bg-none md:flex md:justify-center md:items-center md:space-x-16" style="background-size: 245px 393px; background-position: left center;">
-                <img class="size-72 md:size-96" src="/assets/portfolio-imagem.png" alt="portfolio-imagem">
+                <div class="flex justify-center">
+                    <img class="size-72 md:size-96" src="/assets/portfolio-imagem.png" alt="portfolio-imagem">
+                </div>
                 <div class="space-y-3">
                     <h3 class="text-4xl md:text-6xl font-semibold text-[#3A63A8]">Sobre mim</h3>
                     <p class="text-lg md:text-2xl md:w-[36rem]">Já trabalhei com Marketing, criando artes cativantes e envolventes para os clientes. Recentemente, iniciei na área de programação, focando no desenvolvimento Frontend e atuando como freelancer nos últimos 2 meses. Minha especialidade envolve HTML e CSS.</p>
@@ -53,7 +55,7 @@
                 <div class="flex justify-center">
                     <img class="size-72 md:hidden" src="/assets/portfolio-imagem-1.png" alt="portfolio-imagem-1">
                 </div>
-                <div class="flex flex-col justify-center items-center space-y-3">
+                <div id="tecnologias" class="flex flex-col justify-center items-center space-y-3">
                     <h3 class="text-4xl md:text-6xl font-semibold text-[#3A63A8]">Tecnologias</h3>
                     <p class="m-10 text-center text-lg md:text-2xl">Tecnologias com as quais tenho trabalhado recentemente</p>
                 </div>
@@ -71,7 +73,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="mt-10 space-y-6 p-5 bg-fundoHtml bg-no-repeat bg-left-top" style="background-size: 245px 393px;">
+            <div id="projetos" class="mt-10 space-y-6 p-5 bg-fundoHtml bg-no-repeat bg-left-top" style="background-size: 245px 393px;">
                 <h4 class="text-center text-lg md:text-2xl">Estes são alguns dos trabalhos e<br> <span class="text-[#3A63A8]">projetos que já realizei</span></h4>
                 <div class="flex justify-center space-x-3">
                     <span class="text-4xl md:hidden cursor-pointer">
@@ -85,13 +87,13 @@
                     <p class="text-6xl font-extrabold">EM BREVE</p>
                 </div>
             </div>
-            <div class="mt-10 space-y-3 text-center bg-fundoContato bg-no-repeat" style="background-size: 250px 100px; background-position: center;">
+            <div id="contato" class="mt-10 space-y-3 text-center bg-fundoContato bg-no-repeat" style="background-size: 250px 100px; background-position: center;">
                 <h3 class="text-4xl md:text-6xl font-semibold text-[#3A63A8] text-center">Contato</h3>
                 <ul class="flex justify-center items-center space-x-6">
-                    <li><a href=""><img class="size-14 md:size-24" src="assets/icon-whatsapp.png" alt=""></a></li>
-                    <li><a href=""><img class="size-14 md:size-24" src="assets/icon-linkedin.png" alt=""></a></li>
-                    <li><a href=""><img class="size-14 md:size-24" src="assets/icon-github.png" alt=""></a></li>
-                    <li><a href=""><img class="size-14 md:size-24" src="assets/icon-instagram.png" alt=""></a></li>
+                    <li><a href="https://w.app/ExbOYI" target="_blank"><img class="size-14 md:size-24" src="assets/icon-whatsapp.png" alt=""></a></li>
+                    <li><a href="https://www.linkedin.com/in/victor-matusita-8b382a297/" target="_blank"><img class="size-14 md:size-24" src="assets/icon-linkedin.png" alt=""></a></li>
+                    <li><a href="https://github.com/vmatusita" target="_blank"><img class="size-14 md:size-24" src="assets/icon-github.png" alt=""></a></li>
+                    <li><a href="https://www.instagram.com/victor_matusita?igsh=YmVoOGRhempmam1l" target="_blank"><img class="size-14 md:size-24" src="assets/icon-instagram.png" alt=""></a></li>
                 </ul>
             </div>
         </section>
